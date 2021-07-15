@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+}
+
+.menu-container #font-color {
+  padding: 1px;
+  width: 5vmin;
+  height: 5vmin;
+}
+
+.canvas-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+}
+
+.canvas-container canvas {
+  width: 60vmin;
+  height: 60vmin;
+}
